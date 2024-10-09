@@ -1,0 +1,39 @@
+.resume-page {
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.resume-guide {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.resume-guide h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.resume-guide ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.resume-guide li {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.sample-resume-section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.sample-resume {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

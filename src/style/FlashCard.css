@@ -1,0 +1,28 @@
+/* src/style/FlashCard.css */
+.flash-card {
+    width: 300px; /* Width of the flashcard */
+    height: 300px; /* Height of the flashcard */
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    cursor: pointer;
+    color: black; /* Change text color to black */
+    display: flex; /* Use flexbox for better layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.flash-card-image {
+    width: 100%; /* Full width */
+    height: 200px; /* Fixed height for the image */
+    object-fit: fit; /* Ensures the image covers the card */
+}
+
+.flash-card-title {
+    font-size: 1.5rem; /* Adjust title font size as necessary */
+    font-weight: bold; /* Make title bold */
+    margin-top: 10px; /* Add some space above the title */
+    color: black; /* Ensure text color is black */
+}

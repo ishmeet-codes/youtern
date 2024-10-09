@@ -1,0 +1,48 @@
+/* src/components/Header.css */
+
+header {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Space out logo and navigation */
+    padding: 15px 30px; /* Padding for better spacing */
+    background-color: black; /* Background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Center logo and title vertically */
+}
+
+.logo img {
+    height: 50px; /* Set a fixed height for the logo */
+    margin-right: 10px; /* Space between logo and title */
+}
+
+h1 {
+    font-size: 1.5rem; /* Size of the title */
+    color: white; /* Set title color */
+    margin: 0; /* Remove default margin */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display list items in a row */
+}
+
+nav ul li {
+    margin: 0 20px; /* Space between nav items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold text */
+    font-size: 1rem; /* Font size for links */
+    transition: color 0.3s; /* Transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #007BFF; /* Change color on hover */
+}

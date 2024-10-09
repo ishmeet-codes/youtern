@@ -1,0 +1,33 @@
+/* src/style/Footer.css */
+.footer {
+    background-color: black; /* Change to a color that matches your theme */
+    color: white; /* Text color */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px; /* Limit the width for larger screens */
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px; /* Add some padding */
+}
+
+.footer-section h3 {
+    border-bottom: 1px solid white; /* Underline the section titles */
+    padding-bottom: 10px; /* Add some space below the title */
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem; /* Slightly smaller font for the copyright notice */
+}

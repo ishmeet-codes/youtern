@@ -1,0 +1,33 @@
+/* src/style/MentoringPage.css */
+.mentoring-page {
+    padding: 20px;
+    max-width: 800px; /* Limit the width */
+    margin: auto; /* Center the content */
+    text-align: center; /* Center text */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #4a90e2; /* Matching color */
+}
+
+.mentoring-schedule {
+    width: 100%;
+    border-collapse: collapse; /* Remove spacing between cells */
+}
+
+.mentoring-schedule th,
+.mentoring-schedule td {
+    border: 1px solid #ccc; /* Add borders */
+    padding: 10px;
+    text-align: center; /* Center the text in the cells */
+}
+
+.mentoring-schedule th {
+    background-color: #4a90e2; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.mentoring-schedule tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light background for even rows */
+}

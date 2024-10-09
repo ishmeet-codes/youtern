@@ -1,0 +1,6 @@
+.flashcards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the flashcards */
+    padding: 20px; /* Padding around the container */
+}

@@ -1,0 +1,49 @@
+/* src/style/SignUpLoginPage.css */
+.signup-login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('C:\Users\harle\job-portal-website\src\images\logos\img3.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.signup-login-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Add a transparent background for better readability */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+
+.signup-login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-login-form input,
+.signup-login-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-login-form button:hover {
+    background-color: #555;
+}

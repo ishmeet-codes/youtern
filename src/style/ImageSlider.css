@@ -1,0 +1,55 @@
+.slider {
+    position: relative;
+    height: 500px; /* Set the height of the slider */
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill; /* Ensure images cover the entire slider area */
+}
+
+/* Arrow buttons */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent; /* Remove background circle */
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 3rem;
+    color: black; /* Color for arrows */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Position left and right arrows */
+.arrow.left {
+    left: 20px; /* Position left arrow on the left side */
+}
+
+.arrow.right {
+    right: 20px; /* Position right arrow on the right side */
+}
+
+/* Hover effect for arrows */
+.arrow:hover {
+    color: #555; /* Change color on hover */
+}
