@@ -1,4 +1,5 @@
-const { applications } = require('../utils/storage');
+const { users, jobs, internships, applications, mentors } = require('../utils/storage');
+
 
 // Retrieve resume for a specific application
 exports.getResume = (req, res) => {

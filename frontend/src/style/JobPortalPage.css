@@ -1,0 +1,36 @@
+/* src/components/JobPortalPage.css */
+
+.apply-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 1rem;
+}
+
+.apply-button:hover {
+  background-color: #218838;
+}
+
+.application-status {
+  text-align: center;
+  color: green;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.job-list {
+  list-style: none;
+  padding: 0;
+}
+
+.job-item {
+  background: #f8f9fa;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

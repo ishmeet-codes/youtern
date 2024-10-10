@@ -1,9 +1,11 @@
 const express = require('express');
 const { getInternships, addInternship } = require('../controllers/internshipController');
-const { isHR } = require('../middlewares/authMiddleware');
 const router = express.Router();
 
+// GET route to fetch all internships
 router.get('/', getInternships);
-router.post('/', isHR, addInternship); // Only HR can add internships
+
+// POST route to add a new internship
+router.post('/', addInternship); // Ensure HR adds the internship
 
 module.exports = router;

@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const multer = require('multer');
+const cors = require('cors'); // Import cors
 
 const authRoutes = require('./routes/authRoutes');
 const jobRoutes = require('./routes/jobRoutes');
@@ -11,6 +12,7 @@ const resumeRoutes = require('./routes/resumeRoutes');
 
 const app = express();
 app.use(bodyParser.json());
+app.use(cors()); // Enable CORS for all routes
 
 // Setup routes
 app.use('/auth', authRoutes);

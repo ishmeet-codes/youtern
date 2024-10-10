@@ -2,6 +2,8 @@ const { v4: uuidv4 } = require('uuid');
 
 // In-memory storage for users, jobs, internships, applications, and mentors
 exports.users = [];
+
+// Sample job listings
 exports.jobs = [
   {
     id: uuidv4(),
@@ -14,8 +16,10 @@ exports.jobs = [
     title: 'Data Scientist',
     description: 'Hiring a Data Scientist skilled in Python, Machine Learning, and Data Analysis.',
     hrId: uuidv4(), // Sample HR ID
-  }
+  },
 ];
+
+// Sample internship listings
 exports.internships = [
   {
     id: uuidv4(),
@@ -28,7 +32,11 @@ exports.internships = [
     title: 'AI Research Intern',
     description: 'Join us as an AI research intern. Familiarity with deep learning frameworks required.',
     hrId: uuidv4(), // Sample HR ID
-  }
+  },
 ];
+
+// In-memory storage for applications
 exports.applications = [];
+
+// In-memory storage for mentors
 exports.mentors = [];

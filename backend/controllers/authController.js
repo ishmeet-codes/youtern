@@ -1,5 +1,6 @@
 const { v4: uuidv4 } = require('uuid');
-const { users } = require('../utils/storage');
+const { users, jobs, internships, applications, mentors } = require('../utils/storage');
+
 
 // Signup logic
 exports.signup = (req, res) => {

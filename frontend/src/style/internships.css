@@ -1,0 +1,23 @@
+/* src/pages/InternshipPage.css */
+
+.apply-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 1rem;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+}
+
+.application-status {
+  text-align: center;
+  color: green;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
