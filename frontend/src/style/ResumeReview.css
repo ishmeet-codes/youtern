@@ -1,0 +1,60 @@
+/* src/pages/ResumeReview.css */
+
+.resume-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #333;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+.submit-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.feedback-section {
+    margin-top: 20px;
+}
+
+.feedback-points {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feedback-points li {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #e7f3fe; /* Light blue */
+    border-left: 4px solid #2196F3; /* Blue */
+}
+
+.reset-button {
+    margin-top: 10px;
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #d32f2f;
+}

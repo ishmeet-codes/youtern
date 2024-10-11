@@ -1,0 +1,81 @@
+/* src/style/ResumeAISection.css */
+.resume-ai-section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f4f4f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.resume-ai-header h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+}
+
+.resume-ai-header p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.resume-ai-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resume-ai-form label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.resume-ai-form input[type="file"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.resume-ai-form button {
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume-ai-form button:hover {
+    background-color: #2980b9;
+}
+
+.resume-ai-form button:disabled {
+    background-color: #95a5a6;
+}
+
+.resume-ai-results {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    color: #2c3e50;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.resume-ai-results h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.resume-ai-results p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}

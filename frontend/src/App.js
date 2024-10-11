@@ -14,6 +14,7 @@ import AssignmentPage from './pages/Assignment';
 import CompetitionPage from './pages/Competition';
 import PlacementsPage from './pages/Placements';
 import FlashcardsPage from './pages/FlashcardsPage'; // Import FlashcardsPage
+import ResumeReview from './pages/ResumeReview'; // Check if this is declared again
 
 const App = () => {
     return (
@@ -32,6 +33,7 @@ const App = () => {
                 <Route path="/competition" element={<CompetitionPage />} />
                 <Route path="/placements" element={<PlacementsPage />} />
                 <Route path="/flashcards" element={<FlashcardsPage />} /> 
+                <Route path="/resume" element={<ResumeReview />} /> 
 
             </Routes>
         </Router>

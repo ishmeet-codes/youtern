@@ -12,7 +12,7 @@ export const SliderData = [
     },
 
     {
-        image: 'https://modernmoney.ca/wp-content/uploads/2021/01/shutterstock_556392739-scaled.jpg',
+        image: 'https://img.freepik.com/premium-photo/hand-holds-wooden-cube-with-text-dream-job-positive-thinking-concept_284815-2752.jpg',
         alt: 'Description for Image 3',
     },
     
